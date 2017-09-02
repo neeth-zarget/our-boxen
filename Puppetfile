@@ -60,8 +60,8 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-# github "elasticsearch", "2.8.0"
-# github "mysql",         "2.0.1"
+github "elasticsearch", "2.9.2", :repo => "neeth-zarget/puppet-elasticsearch"
+github "mysql",         "2.2.5", :repo => "neeth-zarget/puppet-mysql"
 # github "postgresql",  "4.0.1"
 github "redis",       "3.2.0.1", :repo => "neeth-zarget/puppet-redis"
 # github "sysctl",      "1.0.1"
